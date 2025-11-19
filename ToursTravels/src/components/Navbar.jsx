@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState } from "react";
+// import { useTranslation } from "react-i18next";
 
 function Navbar() {
   const [lang , setLang ] = useState("EN");    
@@ -20,7 +21,7 @@ function Navbar() {
                 <div className="right-side">
                     <select className='lang-select'
                      value={lang} 
-                     onVolumeChange={(e)=> setLang(e.target.value)}>
+                     onChange={(e)=> setLang(e.target.value)}>
                         <option value="EN">EN</option>
                         <option value="HI">HI</option>
                         <option value="GU">GU</option>
@@ -33,4 +34,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;

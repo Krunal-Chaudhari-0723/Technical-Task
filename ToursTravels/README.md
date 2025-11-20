@@ -1,16 +1,77 @@
-# React + Vite
+# 🌍 Travel Landing Page — React + JSON Server + CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern **Travel Landing Page** built using **React (Vite)**, **normal CSS (no Tailwind)** and a **mock REST API** using JSON Server.  
+Top Destinations, Testimonials, Newsletter Subscription — sab data backend API se fetch hota hai.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### ✔ Fully Responsive Travel Landing Page  
+### ✔ Normal CSS (Tailwind / Bootstrap NOT used)  
+### ✔ API Integration using JSON Server  
+### ✔ Top Destinations Loaded From API  
+### ✔ Testimonials Loaded From API  
+### ✔ Newsletter Subscription (POST request)  
+### ✔ SmartImage Component (fallback for broken images)  
+### ✔ Clean & Beginner-Friendly Code  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Usage |
+|-----------|--------|
+| **React + Vite** | Frontend Framework |
+| **CSS** | Styling (No Tailwind) |
+| **Axios** | API Calls |
+| **JSON Server** | Fake REST API |
+| **Unsplash Images** | Public placeholder images |
+
+---
+
+## 📁 Project Structure
+├─ index.html
+├─ package.json
+├─ db.json
+├─ src/
+│ ├─assets
+│ ├─### here i store all the images releated the website
+│ ├─ main.jsx
+│ ├─ api.js
+│ ├─ App.jsx
+│ ├─ styles.css
+│ └─ components/
+│ ├─ Navbar.jsx
+│ ├─ Hero.jsx
+│ ├─ Services.jsx
+│ ├─ Destinations.jsx
+│ ├─ SmartImage.jsx
+│ ├─ ThreeSteps.jsx
+│ ├─ Testimonials.jsx
+│ ├─ Clients.jsx
+│ ├─ Newsletter.jsx
+│ └─ Footer.jsx
+
+##JSON SERVER AS BACKEND
+This Landing page uses the JSON server as a backend not a node
+
+### To run the api
+Parent Directly : TechnicalTask
+E:\TechnicalTask cd ToursTravels
+E:\TechnicalTask\ToursTravels> npm run api 
+
+### Following is the api or url for destinations
+http://localhost:5000/destinations
+
+### subscribers
+http://localhost:5000/subscribers
+
+### testimonials
+http://localhost:5000/testimonials
+
+### Github Repo Links
+https://github.com/Krunal-Chaudhari-0723/Technical-Task
+
+### The Only Frontend of the site host on the globaly
+https://lovely-stardust-c4a5fb.netlify.app
